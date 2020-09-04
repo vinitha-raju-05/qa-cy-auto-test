@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test --headed",
+    "chromeTest": "npm run test -- --browser chrome",
+    "recordDashboardTest": "npm run test -- --record --key dc78218c-6c55-4f92-aa05-7d077b4e939f",
+    "passTest": "npm run test -- --spec \"cypress/integration/myTest/timeAndDatePass.js\""
   },
   "author": "Vinitha Raju",
   "license": "ISC",
