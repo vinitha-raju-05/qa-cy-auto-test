@@ -10,7 +10,8 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 //About  : Calendar - sanity test automation suite
 //Author : Vinitha Raju
 //Date   : 20-08-2020
-//Version: 1.0.0
+//Version: 1.0.1
+//Update : 04-09-2020
 
 describe('Calender Sanity Test', () => {
     beforeEach(() => {
